@@ -1,5 +1,5 @@
 /*
-Bryant F. Polanco 
+
 10/01/22 
 
 This program is not only to test the limitaion of VS code but to 
@@ -8,19 +8,10 @@ which will either be left with a very detailed comment or marked as
 a comment. 
 */
 
-
-
-
-
-
-
 #include<iostream>
-
-
 using namespace std; 
 
-
-//Function 1 creation`
+//Function creation
 void func1( ){
 
     //Integer Declartion
@@ -31,10 +22,8 @@ void func1( ){
     cout << "Pick a number; I promise I can count to it./n Enter Number: ";
     cin >> num ;
     
-    
             cout <<"\nEasy! " <<num;
     
-
     //While loop
     while (num > counter)
     {
@@ -43,16 +32,7 @@ void func1( ){
         
         cout << "...";
         cout << num;
-        
-       
     }
-
-    
-
-
-    
-    
-
 }
 
 int main()
