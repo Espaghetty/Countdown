@@ -1,32 +1,44 @@
-# Prerequisites
-*.d
+/* 
+10/01/22 
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+This program is not only to test the limitaion of VS code but to 
+practice on functions, and MAYBE... just maybe overload a function 
+which will either be left with a very detailed comment or marked as 
+a comment. 
+*/
+#include<iostream>
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+using namespace std; 
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+//Function  creation
+void func1( ){
 
-# Executables
-*.exe
-*.out
-*.app
+    //Integer Declartion
+    int num;
+    int counter = 0;
+    
+    //Choose how much you want to countdown
+    cout << "Pick a number; I promise I can count to it./n Enter Number: ";
+    cin >> num ;
+    
+    
+            cout <<"\nEasy! " <<num;
+    
+
+    //While loop
+    while (num > counter)
+    { 
+        num--;
+        cout << "...";
+        cout << num;  
+    }
+}
+
+int main()
+{
+    //function call
+    func1();
+    return 0;
+} 
